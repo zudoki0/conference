@@ -1,0 +1,20 @@
+@import "./home.scss";
+@import "./colors.scss";
+@import "./login.scss";
+@import "./register.scss";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Roboto:wght@400;500&display=swap');
+@import '~bootstrap/scss/bootstrap';
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#logo {
+    height: 40px;
+}
+
+.text-danger-container {
+    margin-left: 64px;
+}

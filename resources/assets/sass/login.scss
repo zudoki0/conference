@@ -1,0 +1,55 @@
+#loginContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#loginForm {
+    background-color: $base-color;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.loginInput {
+    height: 32px;
+    min-width: 400px;
+    border: 0;
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+    border-radius: 16px;
+}
+
+.loginDiv {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.loginIcon {
+    height: 32px;
+    width: 32px;
+}
+
+.loginSubmitContainer {
+    display: flex;
+    justify-content: center;
+}  
+
+#loginSubmit {
+    margin-top: 10px;
+    border-radius: 16px;
+    width: 96px;
+    height: 32px;
+    border: 0;
+}
+
+#loginSubmit:hover {
+    transform: scale(1.1);
+}
+
+#noAccountButton {
+    color: white;
+    margin-top: 12px;
+}
