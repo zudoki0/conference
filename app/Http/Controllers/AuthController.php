@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 
-class MainController extends Controller
+class AuthController extends Controller
 {
     function login() {
         return view('auth.login');

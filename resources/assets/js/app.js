@@ -1,8 +1,9 @@
+import flatpickr from 'flatpickr';
 import './bootstrap.js';
 
-const element = document.getElementById("button");
-element.addEventListener("click", addHelloWorld);
-
-function addHelloWorld() {
-    document.getElementById("hi").innerHTML = "Hello, World!";
-}
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.datepicker').forEach(function(item) {
+        flatpickr(item, {
+        })
+    })
+})

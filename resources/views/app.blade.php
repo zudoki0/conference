@@ -3,28 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>@yield('title', 'Conference')</title>
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/dark.css">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 <body>
-    <div id="navbarContainer">
-        <a id="navbarElement1" href="{{url('/')}}">
-            <img src="../logo.svg" alt="logo" id="logo"/>
-        </a>
-        <a id="navbarElement2" href="{{route('info.about')}}">
-            <div id="navbarText">@lang('welcome.about')</div>
-        </a>
-        @if(session('user'))
-            <a id="navbarElement3" href="{{route('auth.logout')}}">
-                <div id="navbarText">@lang('welcome.logout')</div>
-            </a>
-        @else
-            <a id="navbarElement3" href="{{route('auth.login')}}">
-                <div id="navbarText">@lang('welcome.login')</div>
-            </a>
-        @endif
-
-    </div>
-    <script src="{{ mix('js/app.js') }}"></script>
+    @include('subviews.navbar')
+    @yield('content')
 </body>
 </html>

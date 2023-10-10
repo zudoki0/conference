@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-</head>
-<body>
-    <div id="navbarContainer">
-        <a id="navbarElement1" href="{{url('/')}}">
-            <img src="../logo.svg" alt="logo" id="logo"/>
-        </a>
-        <a id="navbarElement2" href="{{route('info.about')}}">
-            <div id="navbarText">ABOUT</div>
-        </a>
-        <a id="navbarElement3" href="{{route('auth.login')}}">
-            <div id="navbarText">LOGIN</div>
-        </a>
-    </div>
+@extends('app')
+
+@section('title', 'Login Page')
+
+@section('content')
     <div id="loginContainer">
         <form id="loginForm" action="{{route('auth.check')}}" method="post">
             
@@ -53,5 +38,4 @@
             </div>
         </form>
     </div>
-</body>
-</html>
+@endsection
