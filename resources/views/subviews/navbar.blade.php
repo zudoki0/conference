@@ -14,4 +14,5 @@
             <div id="navbarText">@lang('welcome.login')</div>
         </a>
     @endif
+    <script src="{{ mix('js/app.js') }}"></script> 
 </div>

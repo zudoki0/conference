@@ -11,7 +11,7 @@
             @endif
 
             @if(Session::get('fail'))
-            <div class="text-fail">{{Session::get('fail')}}</div>
+            <div class="text-danger">{{Session::get('fail')}}</div>
             @endif
 
             @csrf

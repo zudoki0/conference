@@ -7,3 +7,14 @@ document.addEventListener('DOMContentLoaded', function() {
         })
     })
 })
+
+$("#conference-form").addEventListener('click', function(event) {
+    event.preventDefault()
+    alert("dsgijndgokdsngodsgndsogns")
+})
+
+/*
+const element = document.getElementById("conference-form").addEventListener('click', function(event) {
+    event.preventDefault()
+    alert("asgfadgdagadg")
+})*/

@@ -177,6 +177,35 @@
   transform: scale(0.8);
 }
 
+.actionIcons {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4d4dff;
+}
+
+#dataContainer {
+  width: 90%;
+  margin: 5%;
+}
+
+.columnNames {
+  text-align: center;
+  border: 2px solid #4d4dff;
+  color: #4d4dff;
+}
+
+.rowData {
+  text-align: center;
+  border: 1px solid #4d4dff;
+  color: #4d4dff;
+}
+
+#editIcons {
+  width: 128px;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors

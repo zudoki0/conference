@@ -22,7 +22,7 @@ class ConferenceSeeder extends Seeder
             $randomStartDate->setTimestamp($randomTimestamp);
             $randomEndDate->setTimestamp($randomTimestamp + rand(3600,7200));
             \App\Models\Conference::create([
-                'title' => 'Conferenece ' . ($i + 1),
+                'title' => 'Conference ' . ($i + 1),
                 'author' => 'John ' . \Str::random(6),
                 'speaker' => 'Peter ' . \Str::random(6),
                 'description' => \Str::random(100),
