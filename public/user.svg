@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="35.000023"
+   height="43.000004"
+   viewBox="0 0 9.2604227 11.377084"
+   version="1.1"
+   id="svg241"
+   sodipodi:docname="passIcon.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   inkscape:export-filename="email.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview243"
+     pagecolor="#ffffff"
+     bordercolor="#FFFFFF"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="12.300898"
+     inkscape:cx="26.786662"
+     inkscape:cy="8.2107827"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid362"
+       spacingx="1.0583333"
+       spacingy="1.0583333" />
+  </sodipodi:namedview>
+  <defs
+     id="defs238" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.7197886,-0.66145521)">
+    <path
+       style="fill:none;stroke:#FFFFFF;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round"
+       d="m 6.3499997,1.0583333 c 0,0 -3.1749997,0 -3.1749997,3.1749997 0,3.175 3.1749997,3.175 3.1749997,3.175 0,0 3.1749999,0 3.1749999,-3.175 0,-3.1749997 -3.1749999,-3.1749997 -3.1749999,-3.1749997 z"
+       id="path483" />
+    <path
+       style="fill:none;stroke:#FFFFFF;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round"
+       d="m 2.1166666,11.641666 c 0,0 0,-4.233333 3.1749997,-4.233333 3.175,0 0,0 0,0"
+       id="path493" />
+    <path
+       style="fill:none;stroke:#FFFFFF;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round"
+       d="m 10.583333,11.641666 c 0,0 0,-4.233333 -3.175,-4.233333 -3.175,0 -2.1166667,0 -2.1166667,0"
+       id="path495" />
+    <path
+       style="fill:none;stroke:#FFFFFF;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round"
+       d="M 2.1166666,11.641666 H 10.583333"
+       id="path497" />
+  </g>
+</svg>
