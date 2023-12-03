@@ -9,4 +9,7 @@ return [
     'create' => 'Create',
     'signIn' => 'Sign in',
     'dashboard' => 'Dashboard',
+    'create' => 'Create',
+    'update' => 'Update',
+    'return' => 'Return'
 ];

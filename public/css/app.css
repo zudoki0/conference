@@ -183,6 +183,7 @@
   border-radius: 4px;
   cursor: pointer;
   background-color: #4d4dff;
+  margin: 0;
 }
 
 #dataContainer {
@@ -203,7 +204,13 @@
 }
 
 #editIcons {
-  width: 128px;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+#addButtonContainer {
+  width: 90%;
 }
 
 /*!
@@ -12996,6 +13003,14 @@ span.flatpickr-weekday {
     transform: translate3d(0, 0, 0);
   }
 }
+#formContainer {
+  display: grid;
+  gap: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
 * {
   margin: 0;
   font-family: "Roboto", sans-serif;

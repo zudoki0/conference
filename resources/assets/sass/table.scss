@@ -6,8 +6,8 @@
     border-radius: 4px;
     cursor: pointer;
     background-color: $base-color;
+    margin: 0;
 }
-
 
 #dataContainer {
     width: 90%;
@@ -27,5 +27,11 @@
 }
 
 #editIcons {
-    width: 128px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+#addButtonContainer {
+    width: 90%;
 }

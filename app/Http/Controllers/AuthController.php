@@ -45,7 +45,7 @@ class AuthController extends Controller
 
         if($user && Hash::check($request->password, $user->password)) {
             session()->put('user', $user->id);
-            return redirect('/dashboard');
+            return redirect('/');
         } else {
             return back()->with('fail', 'Invalid credentials');
         }
